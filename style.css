@@ -1,0 +1,46 @@
+h1 {
+    color: rgba(255, 117, 117, 0.818);
+    font-size: 2.5em;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+.css-1kyxreq {
+    position:absolute;
+    bottom: 10px;
+    right: 50px;
+}
+.css-1y4p8pa {
+    max-width: 68%;
+}
+
+
+code {
+    height: 30px;
+    width: 30px;
+    color: rgb(249, 141, 0);
+    background-color: white;
+    font-size:large;
+    outline: 4px solid #000000;
+    outline-offset: 11px;
+}
+
+
+
+.kpi {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.titre {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* boutton de téléchargement */
+.css-7ym5gk {
+    position: relative;
+    left: 250px;
+    padding-top: 0;
+    margin-top: 0;
+    bottom: 15px;
+}
