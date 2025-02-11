@@ -3,7 +3,6 @@ import streamlit as st
 from PIL import Image
 import pandas as pd
 from bibliotheque.lib import  *
-from st_pages import Page, show_pages, add_page_title
 from datetime import datetime 
 from plotly.offline import iplot
 import plotly.graph_objs as go
@@ -22,15 +21,6 @@ st.set_page_config(
         "Get Help": "https://www.cefim.eu/",
         "About" : "https://www.linkedin.com/in/melody-duplaix-391672265"
     }
-)
-
-show_pages(
-    [
-        Page("application_assos.py", "Home", "🏠"),
-        Page("pages/Carte.py", "Carte","🗺️"),
-        Page("pages/par_ville.py", "Par Villes", "🗾"),
-        Page("pages/1_A_propos.py", "A propos", "?")
-    ]
 )
 
 # Application du style css
