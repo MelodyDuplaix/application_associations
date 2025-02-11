@@ -1,7 +1,6 @@
 # Import des bibliothèques
 import streamlit as st
 from bibliotheque.lib import  *
-from st_pages import Page, show_pages, add_page_title
 
 
 # config de pages
